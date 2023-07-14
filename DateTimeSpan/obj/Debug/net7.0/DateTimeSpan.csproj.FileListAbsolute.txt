@@ -1,0 +1,15 @@
+c:\C#\Bootcamp\vscode\Day 9\DateTimeSpan\bin\Debug\net7.0\DateTimeSpan.exe
+c:\C#\Bootcamp\vscode\Day 9\DateTimeSpan\bin\Debug\net7.0\DateTimeSpan.deps.json
+c:\C#\Bootcamp\vscode\Day 9\DateTimeSpan\bin\Debug\net7.0\DateTimeSpan.runtimeconfig.json
+c:\C#\Bootcamp\vscode\Day 9\DateTimeSpan\bin\Debug\net7.0\DateTimeSpan.dll
+c:\C#\Bootcamp\vscode\Day 9\DateTimeSpan\bin\Debug\net7.0\DateTimeSpan.pdb
+c:\C#\Bootcamp\vscode\Day 9\DateTimeSpan\obj\Debug\net7.0\DateTimeSpan.csproj.AssemblyReference.cache
+c:\C#\Bootcamp\vscode\Day 9\DateTimeSpan\obj\Debug\net7.0\DateTimeSpan.GeneratedMSBuildEditorConfig.editorconfig
+c:\C#\Bootcamp\vscode\Day 9\DateTimeSpan\obj\Debug\net7.0\DateTimeSpan.AssemblyInfoInputs.cache
+c:\C#\Bootcamp\vscode\Day 9\DateTimeSpan\obj\Debug\net7.0\DateTimeSpan.AssemblyInfo.cs
+c:\C#\Bootcamp\vscode\Day 9\DateTimeSpan\obj\Debug\net7.0\DateTimeSpan.csproj.CoreCompileInputs.cache
+c:\C#\Bootcamp\vscode\Day 9\DateTimeSpan\obj\Debug\net7.0\DateTimeSpan.dll
+c:\C#\Bootcamp\vscode\Day 9\DateTimeSpan\obj\Debug\net7.0\refint\DateTimeSpan.dll
+c:\C#\Bootcamp\vscode\Day 9\DateTimeSpan\obj\Debug\net7.0\DateTimeSpan.pdb
+c:\C#\Bootcamp\vscode\Day 9\DateTimeSpan\obj\Debug\net7.0\DateTimeSpan.genruntimeconfig.cache
+c:\C#\Bootcamp\vscode\Day 9\DateTimeSpan\obj\Debug\net7.0\ref\DateTimeSpan.dll
