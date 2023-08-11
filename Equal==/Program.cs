@@ -25,15 +25,19 @@ namespace Demo
 
 			string str = "hello";
 			str2 = "hello";
-			Console.WriteLine("Using Equality operator: {0}", str == str2);
-			Console.WriteLine("Using equals() method: {0}", str.Equals(str2));
+			Console.WriteLine("Using Equality operator for string: {0}", str == str2);
+			Console.WriteLine("Using equals() method: {0} for string", str.Equals(str2));
 
 			object str3 = "hello";
 			char[] values = { 'h', 'e', 'l', 'l', 'o' };
 			object str4 = new string(values);
-			Console.WriteLine("Using Equality operator: {0}", str3 == str4);
-			Console.WriteLine("Using equals() method: {0}", str3.Equals(str4));
+			Console.WriteLine("Using Equality operator: {0} for string", str3 == str4);
+			Console.WriteLine("Using equals() method: {0} array string", str3.Equals(str4));
 
+			int[] array1 = { 1, 2, 3 };
+			int[] array2 = { 1, 2, 3 };
+			Console.WriteLine("array of int " + (array1 == array2));
+			
 			var a = new MyClass(1);
 			var b = new MyClass(1);
 			var c = a;
@@ -41,17 +45,20 @@ namespace Demo
 			Console.WriteLine(a == c);
 			Console.WriteLine("Using Equality operator a & b: {0}", a == b);
 			Console.WriteLine("Using equals() method a & b: {0}", a.Equals(b));
+			
 		}
 	}
 
 	public class MyClass
 	{
 		private int id;
-
-		public MyClass(int id) => this.id = id;
+		public MyClass(int id) 
+		{
+			this.id = id;
+		}
 		public override bool Equals(object obj)
 		{
-			if (obj == null || GetType() != obj.GetType())
+			if (obj == null || this.GetType() != obj.GetType())
 				return false;
 
 			MyClass other = (MyClass)obj;

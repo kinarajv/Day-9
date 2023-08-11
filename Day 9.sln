@@ -19,8 +19,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormatterParse", "Formatter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnotherConversion", "AnotherConversion\AnotherConversion.csproj", "{A9FC3277-FBBA-4161-A27A-7870722F7197}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkWithNumbers", "WorkWithNumbers\WorkWithNumbers.csproj", "{53EADCEB-74D9-46BC-9FFB-F0C4EA936F40}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equal==", "Equal==\Equal==.csproj", "{BE2689F4-50EC-40C2-98AA-4029924A045B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stackOverFlow", "stackOverFlow\stackOverFlow.csproj", "{0029FB6C-E104-460A-88E0-0B812D050063}"
@@ -66,10 +64,6 @@ Global
 		{A9FC3277-FBBA-4161-A27A-7870722F7197}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9FC3277-FBBA-4161-A27A-7870722F7197}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9FC3277-FBBA-4161-A27A-7870722F7197}.Release|Any CPU.Build.0 = Release|Any CPU
-		{53EADCEB-74D9-46BC-9FFB-F0C4EA936F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{53EADCEB-74D9-46BC-9FFB-F0C4EA936F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{53EADCEB-74D9-46BC-9FFB-F0C4EA936F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{53EADCEB-74D9-46BC-9FFB-F0C4EA936F40}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BE2689F4-50EC-40C2-98AA-4029924A045B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BE2689F4-50EC-40C2-98AA-4029924A045B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE2689F4-50EC-40C2-98AA-4029924A045B}.Release|Any CPU.ActiveCfg = Release|Any CPU

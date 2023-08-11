@@ -6,7 +6,6 @@ class Program
 {
 	static void Main(string[] args)
 	{
-		// Concatenate a large number of strings using string
 		Stopwatch stopwatch1 = Stopwatch.StartNew();
 
 		string result1 = "";
@@ -18,7 +17,6 @@ class Program
 		stopwatch1.Stop();
 		Console.WriteLine("Elapsed time (string): " + stopwatch1.ElapsedMilliseconds);
 
-		// Concatenate a large number of strings using StringBuilder
 		Stopwatch stopwatch2 = Stopwatch.StartNew();
 
 		StringBuilder result2 = new StringBuilder();

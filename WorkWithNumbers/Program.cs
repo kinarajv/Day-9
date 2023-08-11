@@ -7,7 +7,7 @@ class Program
     {
         Console.WriteLine("Maximum value and allowed value types for each data type:");
 
-        // BigInteger
+
         BigInteger bigIntMaxValue = BigInteger.Pow(2, 1024) - 1;
         Console.WriteLine($"BigInteger: Maximum value is {bigIntMaxValue}, allowed value types are whole numbers only");
 

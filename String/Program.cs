@@ -4,7 +4,6 @@
 	{
 		static void Main(string[] args)
 		{
-			// Example string
 			string myString = "Hello, World!";
 
 			// Accessing characters in a string
@@ -21,29 +20,29 @@
 			string country = "USA";
 			int year = 1776;
 			string declaration = $"The {country} declared independence in {year}.";
-			Console.WriteLine(declaration); // The USA declared independence in 1776.
+			Console.WriteLine(declaration); 
 
 			// String length
 			Console.WriteLine(myString.Length); // 13
 
 			// Substring
 			string substring = myString.Substring(0, 5);
-			Console.WriteLine(substring); // Hello
+			Console.WriteLine(substring); // Hello,
 
-			// Converting string to uppercase
+			// uppercase
 			string uppercaseString = myString.ToUpper();
 			Console.WriteLine(uppercaseString); // HELLO, WORLD!
 
-			// Converting string to lowercase
+			// lowercase
 			string lowercaseString = myString.ToLower();
 			Console.WriteLine(lowercaseString); // hello, world!
 
-			// Removing whitespace
+			// Trim (Remove Whitespaces)
 			string stringWithWhitespace = "   Hello, World!   ";
 			string trimmedString = stringWithWhitespace.Trim();
 			Console.WriteLine(trimmedString); // Hello, World!
 
-			// Replacing characters
+			// Replace character
 			string replacedString = myString.Replace("o", "0");
 			Console.WriteLine(replacedString); // Hell0, W0rld!
 
@@ -69,9 +68,6 @@
 			bool Contains = ("quick brown fox".Contains("brown")); // True
 			Console.WriteLine(Contains);
 			
-			//IndexOfAny returns the first matching position of any one of a set of characters:
-			Console.WriteLine("ab,cd ef".IndexOfAny(new char[] { ' ', ',' })); // 2
-			Console.WriteLine("pas5w0rd".IndexOfAny("0123456789".ToCharArray())); // 3
 		}
 	}
 }
